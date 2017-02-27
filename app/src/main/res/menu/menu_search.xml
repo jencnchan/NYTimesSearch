@@ -2,9 +2,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.androidpractice.jennifer.nytimessearch.activities.SearchActivity">
+
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/actionBarSearch"
+        android:background="#2AD2AF"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Compose"
+        app:showAsAction="ifRoom"></item>
+
 </menu>

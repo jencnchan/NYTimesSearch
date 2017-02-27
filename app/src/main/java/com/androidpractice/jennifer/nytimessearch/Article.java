@@ -6,10 +6,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-/**
- * Created by Jennifer on 2017/2/26.
- */
-
 public class Article {
 
     String webUrl;
@@ -48,9 +44,7 @@ public class Article {
 
         }
 
-
     }
-
 
     public static ArrayList<Article> fromJSONArray(JSONArray array) {
         ArrayList<Article> results = new ArrayList<>();
@@ -65,6 +59,5 @@ public class Article {
 
         return results;
     }
-
 
 }

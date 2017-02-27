@@ -14,10 +14,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-/**
- * Created by Jennifer on 2017/2/26.
- */
-
 public class ArticleArrayAdapter extends ArrayAdapter<Article> {
 
     public ArticleArrayAdapter(Context context, List<Article> articles) {
@@ -54,7 +50,6 @@ public class ArticleArrayAdapter extends ArrayAdapter<Article> {
         }
 
         return convertView;
-
 
     }
 }
